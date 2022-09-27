@@ -62,16 +62,37 @@ jeden und jede</li>
 <section id="nutzung-in-goobi" class="slide level2">
 <h2>Nutzung in Goobi</h2>
 <ul>
-<li class="fragment">Für Anreicherung im Viewer neuer Normdaten-Parser
-notwendig (SPARL/MWAPI)</li>
-<li class="fragment">Löst “Problem” der Wiki-Links via Sitelink-Abfrage
-(kann auch als Proxy bei GND für Wikilink dienen)</li>
+<li class="fragment">Kann zur Vernetzung mit allen Entitätstypen genutzt
+werden (Personen, Körperschaften, Orte, “Konzepte”, Werke)</li>
+<li class="fragment">Für Anreicherung des SOLR neuer Normdaten-Parser
+notwendig (SPARQL/MWAPI)</li>
 <li class="fragment">Metadatenbank zur Normdatenanreicherung durch die
 Crowd. (Eine QID kann jedeR anlegen)</li>
 </ul>
 </section>
+<section id="wikipedia-link-im-viewer" class="slide level2">
+<h2>Wikipedia-Link im Viewer</h2>
+<ul>
+<li class="fragment">Lösung für das “Problem” (<a
+href="https://community.goobi.io/t/wikipedia-verlinkung/218">Community-Thread</a>)
+der Wiki-Links via Sitelink-Abfrage (async JS)</li>
+<li class="fragment">Kann auch als Proxy bei GND (oder beliebigem
+AuthorityFile) für Wikilink dienen</li>
+<li class="fragment"><pre class="sparql"><code> SELECT ?wpLink WHERE {
+  ?item wdt:P227 &quot;1190920107&quot;.
+  ?wpLink schema:about ?item;
+    schema:isPartOf &lt;https://de.wikipedia.org/&gt;.
+}</code></pre></li>
+</ul>
+</section>
 <section id="wer-macht-mit" class="slide level2">
 <h2>Wer macht mit?</h2>
+<ul>
+<li class="fragment">Suchfunktionalität im Metadaten-Editor</li>
+<li class="fragment">Wikipedia-Link im Viewer</li>
+<li class="fragment">Solr-Anreicherung konfigurierbar je
+Item-Klasse</li>
+</ul>
 </section>
     </div>
   </div>
