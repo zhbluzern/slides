@@ -8,7 +8,7 @@ institute: <img src="img/ZHB_Luzern_Logo_negativ.svg.png" height="60"/><br/><sma
 ## Wikidata
 **Wikidata ist eine zentrale, multilinguale und  offene Plattform zur Speicherung von strukturierten und verlinkten Daten**
 
-Umfrage: [www.menti.com/ale9rvr9hm8y](https://www.menti.com/ale9rvr9hm8y)
+Umfrage: [poll.goobi.io](https://poll.goobi.io)
 
 * Freie Software und freie Daten (CC 0)
 * Offen zur Bearbeitung (Daten und Struktur) für jeden und jede
