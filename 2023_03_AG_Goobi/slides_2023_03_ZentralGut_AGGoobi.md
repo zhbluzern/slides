@@ -54,7 +54,7 @@ institute: <img src="img/ZHB_Luzern_Logo_negativ.svg.png" height="60"/><br/><sma
 ## Neu in Workflow - Zeitungssplitting
 
 * Automatische Ausgabenerkennung auf S/W erweitert
-<img src="img/2023_03_Tagblatt.JPG"/>
+<img src="img/2023_03_Tagblatt.jpg"/>
 
 ## Neu in Viewer
 
