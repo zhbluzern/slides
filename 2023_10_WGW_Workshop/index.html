@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="author" content="Christian Erlinger">
+  <title> GLAM-Wiki-World</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="./build/reveal.js/dist/reset.css">
+  <link rel="stylesheet" href="./build/reveal.js/dist/reveal.css">
+  <style>
+    .reveal .sourceCode {  /* see #7635 */
+      overflow: visible;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" href="./build/reveal.js/dist/theme/zhbluzern.css" id="theme">
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide">
+  <h1 class="title"><img src="img/Wikimedia_logo_family_complete-2023.svg.png" height="200"/><br/><small>GLAM-Wiki-World</small></h1>
+  <p class="author">Christian Erlinger</p>
+  <p class="institute"><img src="img/ZHB_Luzern_Logo_negativ.svg.png" height="60"/><br/><small>Wien
+Geschichte Wiki - Workshop,
+10.10.2023</small><br/><img src="img/CC_BY_icon.svg.png" width="100px"/></p>
+</section>
+
+<section id="wiki-für-glams" class="slide level2">
+<h2>Wiki für GLAMs</h2>
+<ul>
+<li class="fragment">Das Wien Geschichte Wiki ist ein Glücksfall für die
+Wiener Gedächtnisinstitutionen</li>
+<li class="fragment">Kulturgut und “enzyklopädisches Wissen” “the
+wiki-way” präsentierbar ohne Kompromisse (WP:RK / WD:Notability)</li>
+</ul>
+</section>
+<section id="wiki-und-glams---angstfrage" class="slide level2">
+<h2>Wiki und GLAMs - Angstfrage</h2>
+<ul>
+<li class="fragment">Anschlussfrage: Wie viele Artikel hat das WGW die
+nach WP:RK irrelevant wären?
+<a href="https://www.wikidata.org/wiki/Wikidata:WikiProject_Austria/WikipediaCoverage_WGW_RWAT" target="_blank"><img src="img/wgw_wp.jpg" height="400"/></a></li>
+</ul>
+</section>
+<section id="zhb-luzern-und-das-wikiversum" class="slide level2">
+<h2>ZHB Luzern und das Wiki*Versum</h2>
+<ul>
+<li class="fragment">“Arbeiten unter Observanz” - mitten in und mit der
+Community</li>
+<li class="fragment">Bespielung aller Projekte: Wikipedia, Wikidata,
+Wikimedia Commons, Wikisource</li>
+<li class="fragment">“Profitieren von dem was da ist, ergänzen was wir
+besonderes haben.”</li>
+<li class="fragment">Outreach-Wiki &amp; GLAM-WikiCH-Group: <a
+href="https://outreach.wikimedia.org/wiki/GLAM/Case_studies/ZentralGut">ZentralGut</a></li>
+</ul>
+</section>
+<section id="wikidatafizierung-i" class="slide level2">
+<h2>Wikidatafizierung I</h2>
+<ul>
+<li class="fragment">Vernetzung mit externen Quellen vielfältiger.</li>
+<li class="fragment">Visualisierung: Direkte Datenübernahme
+(MWAPI/REST/WDQS)</li>
+<li class="fragment">Beispiel: Virtuelle Ausstellung <a
+href="https://zhbluzern.gitlab.io/visualize_portrait_gallery/src/">Porträtgalerie
+im Katalogsaal der ZHB Luzern</a> <br/>Daten via IIIF und Wikidata</li>
+<li class="fragment">Familiäre Relationen: Geschwister (Bruder?
+Schwester?)</li>
+</ul>
+</section>
+<section id="wikidatafizierung-ii" class="slide level2">
+<h2>Wikidatafizierung II</h2>
+<ul>
+<li class="fragment">Aktuell &gt; 328.840 WGW Artikel
+(https://www.geschichtewiki.wien.gv.at/Spezial:Statistik) -
+korrekt?</li>
+<li class="fragment">16.065 Wikidata-Items mit WGW-ID (Personen
+annähernd komplett?)
+<center>
+<a href="https://w.wiki/7gov" target="_blank"><img src="img/wgw_wp_P31.jpg" height="300"/></a>
+</center></li>
+</ul>
+</section>
+<section id="technik-wunsch-fürs-wgw-sparql" class="slide level2">
+<h2>Technik-Wunsch fürs WGW: SPARQL</h2>
+<ul>
+<li class="fragment">Bernhard hat alles gesagt in: Building a Knowledge
+Graph for the History of Vienna with Semantic MediaWiki (2023) <a
+href="https://doi.org/10.1016/j.websem.2022.100771">doi:10.1016/j.websem.2022.100771</a></li>
+<li class="fragment">BlazeGraph SPARQL-Endpoint (theroetisch bis 50
+Milliarden Tripel, Wikidata aktuell knapp unter 13 Mrd.
+Performance-Probleme bei komplexen Abfragen merkbar)</li>
+<li class="fragment">Eigene Wikibase mit Pipeline &lt;-&gt; SMW?</li>
+</ul>
+</section>
+<section id="oder-weiter-gedacht-wgwikibase" class="slide level2">
+<h2>oder weiter gedacht: WGWikiBase</h2>
+<ul>
+<li class="fragment">Eigene Wikibase-Instanzen bringen bereits viel an
+Tools mit
+<ul>
+<li class="fragment">QuickStatements zum einfachen Massenedit</li>
+<li class="fragment">QueryService</li>
+<li class="fragment">Arbeiten mit OpenRefine</li>
+<li class="fragment">Wikibase erhält aktuell REST-API (leichter extern
+verwend-/verstehbarbar als MW-API)</li>
+</ul></li>
+</ul>
+</section>
+<section id="noch-weiter-gedacht-alleine-bleibt-aber-alleine"
+class="slide level2">
+<h2>noch weiter gedacht: Alleine bleibt aber alleine</h2>
+<ul>
+<li class="fragment">Die eigene Wikibase, bedeutet alles im Graph auch
+selbst zu erstellen:</li>
+<li class="fragment">Bsp. 3600 Geburtsorte ausserhalb Wiens, die wollen
+modelliert werden: <a href="https://w.wiki/7hxq">WDQS Karte aller
+Geburtstorte von WGW-Personen ausserhalb Wiens</a></li>
+</ul>
+</section>
+<section id="bibliographie-näher-heran" class="slide level2">
+<h2>Bibliographie näher heran</h2>
+<ul>
+<li class="fragment">Wikibase als potentielles Katalogreplikat
+<ul>
+<li class="fragment">“Template:Cite Q”</li>
+</ul></li>
+<li class="fragment">Wikidata-basierte Infobox in Primo (vgl. <a
+href="https://rzs.swisscovery.slsp.ch/permalink/41SLSP_RZS/lim8q1/alma99583590105505">Karl
+Kraus-Box</a>)</li>
+<li class="fragment">Volltextdarstellungen-/bearbeitungen im Wiki -&gt;
+WikiSource-Extension
+<center>
+<a href="https://w.wiki/7gov" target="_blank"><img src="img/wsedit.jpg" height="300"/></a>
+</center></li>
+</ul>
+</section>
+<section id="bildpräsentation" class="slide level2">
+<h2>Bildpräsentation</h2>
+<ul>
+<li class="fragment">Wikimedia Commons Ingest <a
+href="https://commons.wikimedia.org/wiki/Category:Media_contributed_by_ZentralGut.ch">(vgl.
+ZentralGut)</a> und Bilder von dort einbinden</li>
+<li class="fragment">Copyfraud vermeiden:
+<ul>
+<li class="fragment"><a
+href="https://www.geschichtewiki.wien.gv.at/index.php?title=Datei:Nationalbank_Herrengasse.jpg">Datei:Nationalbank
+Herrengasse.jpg</a></li>
+<li class="fragment">WGW Lizenz: CC BY-NC-ND 4.0 :-( // glücklicher in
+<a
+href="https://www.digital.wienbibliothek.at/wbrobv/content/titleinfo/2287856">VL</a></li>
+<li class="fragment">(Tolles Beispiel für Commons-Upload!)
+<center>
+<a href="https://w.wiki/7gov" target="_blank"><img src="img/NB_WGW.jpg" height="200"/></a>
+</center></li>
+</ul></li>
+</ul>
+</section>
+<section id="wikidata-graph-schmankerl" class="slide level2">
+<h2>Wikidata-Graph-Schmankerl</h2>
+<ul>
+<li class="fragment">Artikel-Coverage WGW/WP <a
+href="https://www.wikidata.org/wiki/Wikidata:WikiProject_Austria/WikipediaCoverage_WGW_RWAT">Abfrage</a></li>
+<li class="fragment">Geburtsorte ausserhalb Wiens <a
+href="https://w.wiki/7hxq">Abfrage</a></li>
+<li class="fragment">WGW als Reference in Wikidata <a
+href="https://w.wiki/7hyy">Abfrage</a></li>
+<li class="fragment">Verwandschaftsnetz der WGW-Biographien <a
+href="https://w.wiki/7i7E">Abfrage</a></li>
+<li class="fragment">Ideen, Fragen?</li>
+</ul>
+</section>
+    </div>
+  </div>
+
+  <script src="./build/reveal.js/dist/reveal.js"></script>
+
+  <!-- reveal.js plugins -->
+  <script src="./build/reveal.js/plugin/notes/notes.js"></script>
+  <script src="./build/reveal.js/plugin/search/search.js"></script>
+  <script src="./build/reveal.js/plugin/zoom/zoom.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+        // Display controls in the bottom right corner
+        controls: true,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: true,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'bottom-right',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: false,
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
+        // Push each slide change to the browser history
+        history: false,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: true,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'default',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: true,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'slide',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'default',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'fade',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+        // reveal.js plugins
+        plugins: [
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    </body>
+</html>
