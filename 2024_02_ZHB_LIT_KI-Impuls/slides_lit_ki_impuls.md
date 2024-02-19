@@ -9,7 +9,7 @@ institute: <img src="img/ZHB_Luzern_Logo_negativ.svg.png" height="60"/><br/><sma
 
 * Virtueller Rundgang durch die [Porträtgalerie](https://visualize-portrait-gallery-zhbluzern-33d2b4c7506284a907344ee898.gitlab.io/src/index.html)
 * Zahlreiche Skripts für den "täglichen" Gebrauch mit ZentralGut, LORY und Alma mit Chat-GPT gestellt.
-* Was früher eine Google-Recherche auf Stackoverflow gebracht hat, ist heute der Chat-GPT-Chat.
+* Was gestern eine Google-Recherche auf Stackoverflow gebracht hat, ist heute der Chat-GPT-Chat.
 
 ## Coden mit Chat-GPT
 
