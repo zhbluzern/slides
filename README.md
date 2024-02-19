@@ -4,7 +4,8 @@ This respository contains different markdown-based presentations created by peop
 
 ## Presentation Index
 
-* 2023-10 [Presentation "GLAM-Wiki", Wien Geschichte Wiki Workshop, Wienbibliothek, 10. Oktober 2023](2023_10_WGW_Workshop)
+* 2024-02 [ZHB Luzern - KI-Impuls der Library IT](2024_02_ZHB_LIT_KI-Impuls)
+* 2023-10 [Presentation &#34;GLAM-Wiki&#34;, Wien Geschichte Wiki Workshop, Wienbibliothek, 10. Oktober 2023](2023_10_WGW_Workshop)
 * 2023-03 [Presentation about ZentralGut. AG Goobi, Universität Wien, 20. März 2023](2023_03_AG_Goobi)
 * 2022-09 [Use Wikidata in Intranda Goobi. Goobi Dommunity Days 2022, Online](2022_09_Goobi_Days_Wikidata)
 

@@ -61,7 +61,6 @@ institute: <img src="img/ZHB_Luzern_Logo_negativ.svg.png" height="60"/><br/><sma
   * (Tolles Beispiel für Commons-Upload!) 
   <center><a href="https://w.wiki/7gov" target="_blank"><img src="img/NB_WGW.jpg" height="200"/></a></center>
   
-
 ## Wikidata-Graph-Schmankerl
 * Artikel-Coverage WGW/WP [Abfrage](https://www.wikidata.org/wiki/Wikidata:WikiProject_Austria/WikipediaCoverage_WGW_RWAT)
 * Geburtsorte ausserhalb Wiens [Abfrage](https://w.wiki/7hxq)
