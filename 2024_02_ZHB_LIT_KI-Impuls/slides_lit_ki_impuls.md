@@ -17,6 +17,6 @@ institute: <img src="img/ZHB_Luzern_Logo_negativ.svg.png" height="60"/><br/><sma
 * Je "kleiner" die Aufgabe, desto präziser das Ergebnis.
 * Chat-GPT "erklärt" dir seine Beispiele. 
   * So viel wie in den letzten 5 Monaten habe ich schon lange nicht gelernt!
-* Vermeide die Übergabe personalisierte Daten
+* Vermeide die Übergabe personalisierter Daten
   * eh klar: keine Zugangsdaten
   * auch keine rückführbaren Code-Schnipsel (die später auf Git* landen)
