@@ -16,7 +16,7 @@ institute: <img src="img/ZHB_Luzern_Logo_negativ.svg.png" height="60"/><br/><sma
 * LLMs "können" gut programmieren. (Quellen wie GitHub, Stackoverflow)
 * Je "kleiner" die Aufgabe, desto präziser das Ergebnis.
 * Chat-GPT "erklärt" dir seine Beispiel. 
- * So viel wie in den letzten 5 Monaten habe ich schon lange nicht gelernt!
+  * So viel wie in den letzten 5 Monaten habe ich schon lange nicht gelernt!
 * Vermeide die Übergabe personalisierte Daten
- * eh klar: keine Zugangsdaten
- * auch keine rückführbaren Code-Schnipsel (die später auf Git* landen)
+  * eh klar: keine Zugangsdaten
+  * auch keine rückführbaren Code-Schnipsel (die später auf Git* landen)
