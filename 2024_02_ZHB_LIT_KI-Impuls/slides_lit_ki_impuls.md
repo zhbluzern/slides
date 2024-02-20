@@ -5,8 +5,8 @@ urlcolor: white
 institute: <img src="img/ZHB_Luzern_Logo_negativ.svg.png" height="60"/><br/><small>ZHB Luzern - KI-Impuls, 20.02.2024</small><br/><img src="img/CC_BY_icon.svg.png" width="100px"/>
 ---
 
-## <small>Ein guter Prompt</small>
-<img src="img/MABE_Frame01.jpg"/>
+## <small>Chat-GPT: Ein guter Prompt</small>
+<img src="img/MABE_Frame01_cropped.jpg"/>
 
 ## Bildgenerierung mit KI
 
