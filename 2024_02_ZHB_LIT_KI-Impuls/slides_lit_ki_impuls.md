@@ -40,7 +40,7 @@ institute: <img src="img/ZHB_Luzern_Logo_negativ.svg.png" height="60"/><br/><sma
 ## Links
 
 * Chat-GPT [https://chat.openai.com/](https://chat.openai.com/)
-  * Erstelle ein eigenen Profil: [LITanalyzer/](https://github.com/bemattmann/LITanalyzer)
+  * Erstelle einen eigenen GPT: [LITanalyzer](https://github.com/bemattmann/LITanalyzer)
   * App mit Chat-GPT entwickelt: [Virtuelle Porträtgalerie](https://visualize-portrait-gallery-zhbluzern-33d2b4c7506284a907344ee898.gitlab.io/src/index.html)
 * Graphik-AI
   * DALL-E [openai.com/dall-e-2](https://openai.com/dall-e-2)
