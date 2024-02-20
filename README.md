@@ -12,6 +12,6 @@ This respository contains different markdown-based presentations created by peop
 ## Build your own ZHB-presetnation
 
 * Create a new directory for your presentation
-* Copy the build/ directory
-* Build your presentation in slides*.md file
-* run pandoc `pandoc -s -i -t revealjs --variable revealjs-url=./build/reveal.js --variable theme="zhbluzern" .\yoursSlideshow.md -o yoursSlideshow.html`
+* Create an `img/` Directory in your presentation directory
+* Build your presentation in a slides*.md file
+* run pandoc `pandoc -s -i -t revealjs --variable revealjs-url=./build/reveal.js --variable theme="zhbluzern" yourSlidesDirectory/yoursSlideshow.md -o yourSlidesDirectory/yoursSlideshow.html`
