@@ -39,9 +39,9 @@ institute: <img src="img/ZHB_Luzern_Logo_negativ.svg.png" height="60"/><br/><sma
 
 ## Links
 
-* Chat-GPT (https://chat.openai.com/)
-  * Erstelle ein eigenen Profil: https://github.com/bemattmann/LITanalyzer
+* Chat-GPT [https://chat.openai.com/](https://chat.openai.com/)
+  * Erstelle ein eigenen Profil: [LITanalyzer/](https://github.com/bemattmann/LITanalyzer)
   * App mit Chat-GPT entwickelt: [Virtuelle Porträtgalerie](https://visualize-portrait-gallery-zhbluzern-33d2b4c7506284a907344ee898.gitlab.io/src/index.html)
 * Graphik-AI
-  * DALL-E (https://openai.com/dall-e-2)
-  * Leonardo.AI (https://app.leonardo.ai/)
+  * DALL-E [openai.com/dall-e-2](https://openai.com/dall-e-2)
+  * Leonardo.AI [app.leonardo.ai/](https://app.leonardo.ai/)
