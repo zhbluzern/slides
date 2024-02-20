@@ -20,3 +20,16 @@ institute: <img src="img/ZHB_Luzern_Logo_negativ.svg.png" height="60"/><br/><sma
 * Vermeide die Übergabe personalisierter Daten
   * eh klar: keine Zugangsdaten
   * auch keine rückführbaren Code-Schnipsel (die später auf Git* landen)
+
+ ## Bildgenerierung mit KI
+
+* In zwei AI-Apps (Dall-E und Leonardo.AI) getestet:
+  * "Erzeuge Smileys als einladende Graphik für eine Nutzerumfrage"
+  * "the library catalog of the future, neon art, colorful"
+  
+ ## Bildgenerierung mit KI
+
+* Dall-E
+  * Text-Prompt beschreibt das Bild
+  * Ergebnisse im Detail unbrauchbar (wie zB: "Textbausteine", Hände, Gesichter)
+  * Unterschied im Prompt de/en
